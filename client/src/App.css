@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  padding: 16px;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.DropZone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+
+.DropZone:hover {
+  cursor: pointer;
+}
+
+.Title {
+  font-size: x-large;
+}
+
+.Files {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.File {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 16px;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+}
+
+.File-Image {
+}
+
+.File-Name {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
