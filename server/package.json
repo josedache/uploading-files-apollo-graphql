@@ -9,7 +9,7 @@
     "debug": "nodemon inspect index.js"
   },
   "dependencies": {
-    "apollo-server": "^2.14.1",
+    "apollo-server": "^2.14.2",
     "graphql": "^15.0.0"
   }
 }
